@@ -70,3 +70,13 @@ El proceso de un análisis de datos
 
 7. Presentación de las concluciones: estas deben presentarse de manera clara e impacatante para facilitar la toma de deciones del solicitante.
 
+Video 5
+
+En el quinto video se realiza una encuesta a algunos profesionales relacionados con el análisis de datos para saber en su experiencia que consideran que es
+el análisis de datos, que en su gran mayoria consiste en una herramienta que nos permite comprobar hipotesis sobre las bases de datos que estamos trabajando
+donde este proceso es mecanico abriendo con una extracción, limpieza y tratamiento de datos.
+
+un enfoque interesante es en el que se postula que el analisis de datos esta toda decision que tomamos desde el hecho de levantarno hasta el de pasar la calle 
+debido que esa toma de deciones es un acto que realizamos apartir una serie de informacíon que obtenemos de nuestro entorno, es decir el análasis de datos es un
+proceso que usamos inconcientemente en el día a día pero ahora pagan para hacerlo a mayor escala de datos.
+
