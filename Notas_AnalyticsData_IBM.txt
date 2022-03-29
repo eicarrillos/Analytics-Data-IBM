@@ -56,4 +56,17 @@ El proceso de un análisis de datos
 3. Recopilación de datos: identificados los datos que se requieren, las fuentes de datos de las que se deben extraer estos datos y las mejores 
                           herramientas para el trabajo.
 
-4. Limpieza de datos:
+4. Limpieza de datos: una vez recopilados los datos, el siguiente 
+                        paso es arreglar los problemas de calidad de los 
+                        datos que podrian afectar a la precisión del análisis  este paso limpia los datos tanto de los faltantes
+                        como de los valores atípicos,
+
+5. Analisis y minería de datos: Analisis desde diferentes perspectivas para entender las tendencias, correlaciones y encontrar patrones y variaciones
+                        interpretando resultados
+
+6. Interpretando Resultados:  despues de analalizar los datos y posiblemente investigar más, lo que se puede ser un bucle reiterativo. a medida que 
+                        que interpretas los resultados debes evaluar si tu análisis es defendible contra objeciones, y si hay alguna limitación o 
+                        circunstancia bajo la cual tu análisis puede no ser cierto.
+
+7. Presentación de las concluciones: estas deben presentarse de manera clara e impacatante para facilitar la toma de deciones del solicitante.
+
