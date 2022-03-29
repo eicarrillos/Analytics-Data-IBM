@@ -1,0 +1,59 @@
+Notas del curso de IBM
+
+Video 2
+ecosistema de datos moderno
+
+en la actualidad tenemos 3 tipos de bases de datos 
+
+1. interconectados
+2. independientes 
+3. en evolución 
+
+de la fuente de datos se pueden obtener 2 tipos de data
+
+1. estructurada 
+2. no estructurada
+
+Video 3
+Diferencias entre las profesiones relacionadas al tratamiento de datos
+
+Data engienering convert raw data into usable data
+
+Data Analitics use this data to generate insights
+
+Data Scienttists use Data Analytics and Data Engineering to predict the future using
+data from the past
+
+Business Analysts and Business Intelligence Analysts use these insights and predictions 
+to drive decisions that benefit and grow their business
+
+
+Video 4
+El analisis de datos es el proceso de recopilar, limpiar, analizar y extraer datos---> interpretar resultados y presentar los hallazgos
+
+primera etapa
+
+analisis descriptivo: muestra  los resultados de unos datos pasados
+
+analítica de diagnostico: toma las percepciones del análisis descriptivo para encontrar
+                          la causa de la outcome
+
+analisis predictivo: que sucederá?, el historico de datos y las tendencias se utilizan para 
+                     predecir los resultados futuros comunmente usando en la predicción de ventas
+
+analisis prescriptivo: responde a la pregunta que se debe hacer al respecto? Analizando desiciones y eventos pasados
+                       ejemplo los autos electricos con piloto automotatico, toman desiciones para cambiar de 
+                       carril deacuerdo a datos de entorno pasados y presentes
+
+
+El proceso de un análisis de datos
+
+1. comprensión del problema y del resultado deseado: definir donde estamos y para donde queremos ir 
+
+2. Establecer una métrica clara:  esta etapa del proceso incluye decidir qué se medirá (por ejemplo tomar los datos en ciertas temporadas 
+                                  o en intervalos definidos de tiempo)
+
+3. Recopilación de datos: identificados los datos que se requieren, las fuentes de datos de las que se deben extraer estos datos y las mejores 
+                          herramientas para el trabajo.
+
+4. Limpieza de datos:
