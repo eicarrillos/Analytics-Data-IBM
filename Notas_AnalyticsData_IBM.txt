@@ -64,7 +64,7 @@ El proceso de un análisis de datos
 5. Analisis y minería de datos: Analisis desde diferentes perspectivas para entender las tendencias, correlaciones y encontrar patrones y variaciones
                         interpretando resultados
 
-6. Interpretando Resultados:  despues de analalizar los datos y posiblemente investigar más, lo que se puede ser un bucle reiterativo. a medida que 
+6. Interpretando Resultados:  despues de analizar los datos y posiblemente investigar más, lo que se puede ser un bucle reiterativo. a medida que 
                         que interpretas los resultados debes evaluar si tu análisis es defendible contra objeciones, y si hay alguna limitación o 
                         circunstancia bajo la cual tu análisis puede no ser cierto.
 
