@@ -1,0 +1,60 @@
+LECTURA 1
+Análisis de Datos versus Analítica de Datos
+
+Los términos Análisis de Datos y Analítica de Datos se suelen utilizar indistintamente, incluso en este curso.
+Sin embargo, es importante señalar que existe una sutil diferencia entre los términos y el significado de las palabras
+Análisis y Analítica. De hecho, algunas personas llegan a decir que estos términos significan cosas diferentes y que no deberían utilizarse indistintamente.
+Sí, hay una diferencia técnica…
+
+Los significados del diccionario son:
+
+Análisis – examen detallado de los elementos o estructura de algo
+
+Analítica – el análisis sistemático computacional de datos o estadísticas
+
+El Análisis puede hacerse sin números ni datos, como el análisis de negocios, el análisis psicológico, entre otros.
+Mientras que la Analítica, incluso cuando se utiliza sin “Datos”, casi invariablemente implica el uso de datos para realizar manipulación e inferencia numérica.
+Algunos expertos incluso dicen que el Análisis de Datos se basa en inferencias basadas en datos históricos, mientras que
+el Análisis de Datos (analítica) sirve para predecir el rendimiento futuro. El equipo de diseño de este curso no suscribe este punto de vista y verás por qué más 
+adelante en el curso a medida que te familiarices con los términos como análisis predictivo, analítica prescriptiva, entre otras.
+
+Así que en este curso tomamos un punto de vista más liberal y usamos los términos Análisis de Datos y Análisis de Datos 
+(analítica) para hablar lo mismo. Por ejemplo, un video anterior se llamaba Definiendo el Análisis de Datosmientras que
+el video anterior con los puntos de vista de varios profesionales de los datos se llamaba Qué es el Análisis de Datos.
+La diferencia entre estos títulos no es intencional.
+
+LECTURA 2
+Resumen y Aspectos Resultantes
+En esta lección, has aprendido la siguiente información:
+
+Un ecosistema de datos moderno incluye una red de entidades interconectadas y en continua evolución que incluyen:
+
+●      Datos que están disponibles en una gran cantidad de formatos, estructuras y fuentes diferentes.
+
+●      Entorno de datos de la empresa, en el que los datos en bruto se ponen en escena para que puedan organizarse, limpiarse y optimizarse para su uso por los usuarios finales.
+
+●      Usuarios finales como los interesados en las empresas, analistas y programadores que consumen datos para diversos propósitos.
+
+Las tecnologías emergentes, como la Computación en la Nube, el Aprendizaje Automático y los Grandes Volúmenes de Datos, están continuamente remodelando el ecosistema de datos
+y las posibilidades que estas ofrecen. Ingenieros de Datos, Analistas de Datos, Científicos de Datos, Analistas de Negocios y Analistas de Inteligencia de Negocios, todos juegan
+un rol vital en el ecosistema para derivar conocimientos y resultados de negocios a partir de los datos.
+
+Basado en los objetivos y resultados que necesitan ser alcanzados, existen cuatro tipos principales de Análisis de Datos:
+
+●      Análisis Descriptivo, que ayuda a decodificar “Lo que pasó”.
+
+●      Análisis Diagnóstico, que ayuda a entender “Por qué sucedió”.
+
+●      Análisis Predictivo, que analiza los datos históricos y las tendencias para sugerir “Qué pasará después”.
+
+●      Análisis Prescriptivo, que prescribe “Qué debería hacerse a continuación”.
+
+El Análisis de Datos implica:
+
+●      Desarrollar una comprensión del problema y del resultado deseado.
+
+●      Establecer una métrica clara para evaluar los resultados.
+
+●      Recopilar, limpiar, analizar y extraer datos para interpretar los resultados.
+
+●      Comunicar los hallazgos de manera que influyan en la toma de decisiones.
