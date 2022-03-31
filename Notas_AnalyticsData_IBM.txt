@@ -1,5 +1,10 @@
 Notas del curso de IBM
 
+Modulo 1
+
+PARTE 1. EL ECOSISTEMA DE DATOS MODERNOS
+--------------------------------->
+
 Video 2
 ecosistema de datos moderno
 
@@ -79,4 +84,8 @@ donde este proceso es mecanico abriendo con una extracción, limpieza y tratamie
 un enfoque interesante es en el que se postula que el analisis de datos esta toda decision que tomamos desde el hecho de levantarno hasta el de pasar la calle 
 debido que esa toma de deciones es un acto que realizamos apartir una serie de informacíon que obtenemos de nuestro entorno, es decir el análasis de datos es un
 proceso que usamos inconcientemente en el día a día pero ahora pagan para hacerlo a mayor escala de datos.
+
+PARTE 2. EL ROL DE UN ANALISTA DE DATOS
+--------------------------------->
+
 
