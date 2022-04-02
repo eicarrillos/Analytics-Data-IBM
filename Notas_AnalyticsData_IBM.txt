@@ -87,5 +87,41 @@ proceso que usamos inconcientemente en el día a día pero ahora pagan para hace
 
 PARTE 2. EL ROL DE UN ANALISTA DE DATOS
 --------------------------------->
+Video 1. Responsabilidades de un Analista de datos
 
+Funciones tipícas:
+1. Adquirir datos de bases primarias y secundarias  
+2. Crear consultas en las bases de datos para obtener los datos nesesarios
+3. Filtrar, Limpiar, normalizar y reorganizar los datos en proceso
+4. Utilizar herramientas estadisticas para interpetrar los conjuntos de datos
+5. Utilizar las herramientas estadisticas para encontrar patrones y correlaciones de datos
+6. Analizar patrones en conjuntos de datos complejos e interpretar tendencias.
+7. Preparar informes y graficos  que comuniquen eficazmente las tendencias y los patrones
+8. Crear la documentación adecuada para definir y demostrar los pasos del procesos de análisis
 
+Habilidades de un Analista de datos
+1. Habilidades Tecnicas
+1.1. Experiencia en el uso de hojas de excel
+1.2. Dominio y experiencia en sofware de analisis estadistico como IBM cognos,  SSPS, power Bi, Tableu.
+1.3. Dominio de alguno de los lenguajes de programación como R, Python, y en algunos casos c++, java o MATLAB
+1.4. Buen conocimiento en SQL y capacidad para trabajar en bases de datos relacionales y NoSQL
+1.5. La capacidad de acceder y Extraer datos del repositorio de datos, como Data marts, Data Warehouses, Data lake and Data pipelines 
+1.6. Familiaridad con la herramientas de procesamientos de Big Data como Hadoop, Hive, Spark
+
+2.Habilidades Funcionales
+2.1. Dominio de la estadistica para ayudarte a analizar los datos, validar tu análisis, e identificar las faltas y errores tecnicos
+2.2. Habilidades analiticas que te ayuden a investigar e interpretar los datos, teorizar y hacer pronosticos.
+2.3. Habilidades de resolución de problemas, por que en ultima instancia, el objetivo final del análisis de datos es resolver problemas
+2.4. Habilidades de indagación, que son escenciales para el processo de descubrimiento, es decir, para comprender un problema desde la perspectivas
+     de varios interesados y usuarios, por que el proceso de análisis de datos comienza realmente con una clara articulación del enunciado del problema
+     y el resultado deseado.
+2.5. Habilidades de visualización de datos que ayuden a decidir las tecnicas e instrumentos que presentan los hallazgos de manera eficaz en función de la audiencia.
+     el tipo de datos, el contexto y el objetivo final del análisis.
+2.6. Habilidades de gestion de proyectos, para manejar el proceso, personal, dependencias y plazos de la iniciativa.
+
+3. Habilidades Blandas.
+3.1. Trabajar en colaboración con equipos empresariales y multifuncionales.
+3.2. Comunicar de manera efectiva para informar y presentar tus hallazgos,
+3.3. Contar una historia atractiva y convincente, conseguir apoyo y aceptación de tu trabajo.
+3.4. CURIOSIDAD
+3.5. INTUICIÓN
