@@ -125,3 +125,77 @@ Habilidades de un Analista de datos
 3.3. Contar una historia atractiva y convincente, conseguir apoyo y aceptación de tu trabajo.
 3.4. CURIOSIDAD
 3.5. INTUICIÓN
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 2
+
+El trabajo de un analista de datos tiene una infraestructura definida por los siguientes items:
+     1. Recopilación de datos:
+          la base de datos se puede clasificar en las siguientes categorias
+          1.1 Estructurados
+               Estos bases son aquellas que tienen un formato rigido y ordenado de tal manera que pueden organizarse en filas y columnas es tal el caso de las hojas de calculo (excel), 
+               y las bases de DATOS
+          1.2 Semi-Estructurados
+               Estos datos son una mezcla de datos organizados con un formato rigido y otro no estructurado, como ejemplo de estos datos tenemos los correos dado que si tomamos el remitente y 
+               el destinatario como una base de datos claramente esta es estructurada pero el contenido del correo no es un dato organizado.
+          1.3 No estructurados
+               Este tipo de datos es en el cual se nos es imposible reducir la información a filas o columnas o mejor dicho no se puede organizar, como ejemplo tenemos las fotos, los videos, los pdf'saber
+               ect, ahora como bien es sabido una foto no es mas que la imagen formada por un conjunto de pixeles los cuales pueden ser nombrados pero no organizados
+          Es importante saber con que base de datos se cuentan para poder determinar las herramientas a usar en el processo de recolección.
+          las bases de datos pueden ser obtenidas de diferentes fuentes, que van desde:
+               -bases de datos relacionales
+               -Bases de datos no relacionales
+               -APIs 
+               -Servicios web
+               -Data streams
+               -Plataforma de Redes 
+               -Dispositivos con sensores.
+          Tras conocer la fuente de datos es importante conocer el tipo de repositorio adecuado a construir para optimizar la distibución de datos, estos se eligen deacuerdo a estas 3 caracteristicas:
+               -Tipo de datos
+               -Formato 
+               -Fuentes de datos
+          y segun estas tres caracteristicas podemos formar un repositorio de datos los cuales se clasifican en:
+               -Databases 
+               -Data Warehouses
+               -Data marts
+               -Data Lakes
+               -Big Data Stores
+          El ecosistema de datos incluye lenguajes que se clasifican como:
+               -Lenguaje de consultas        (SQL)
+               -Lenguajes de programación    (Python)
+               -Lenguajes de shell y programación de scripts     (comandos de la shell)
+     En resumen
+     -> los datos estructurados son los qu están bien organizados en formatos que pueden almacenarse en bases de datos  y se presentan a métodos y herramientas de análisis de datos estandar
+     -> Los datos Semi-estructurados son los que están de alguna manera organizados y dependen de metaetiquetas para agruparlos y jerarquizarlos
+     -> Los datos no estructurados son los que están organizados convencionalmente en forma de filas y columnas
+
+     2. Limpieza de data
+     3. Analizar
+     4. Visualizar data
+
+
+Las herramientas utilizadas en el Data analysts van desde:
+
+--recopilar         --Data Wranling               --Data mining       --Data visualization
+--extraer           --(Preparación de datos)      
+--transformar       --limpieza
+--cargar datos      
+
+Entendendimiento de los diferentes tipos de formatos
+
+Algunos Formatos a ver son:
+-Formatos de archivo de texto delimitado o CSV
+     Estos son los formatos a los cuales cada linea tiene un valor separado por delimitadores, donde un delimitador es un secuencia de uno o más caracteres para especificar el limite
+     CSV = Comma-Separated-values
+     TSV = Tab-Separated-Values
+-Hojas de calculo, Excel Open XML o XLSL
+     XML = Lenguaje de Marcado Extensible
+-Lenguaje de Marcado Extensible o .XML
+-Formato de Documento portatil o pdf
+-Notación de objeto JavaScript o JSON
+
+
+
+
+
+
