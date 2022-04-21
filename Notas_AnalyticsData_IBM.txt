@@ -194,6 +194,72 @@ Algunos Formatos a ver son:
 -Formato de Documento portatil o pdf
 -Notación de objeto JavaScript o JSON
 
+FUENTES DE DATOS
+
+Dentro de las más comunes podemos encontrar:
+     1. Bases de datos relacionales
+          algunas de ellas son: 
+          1.1. SQL
+          1.2. ORACLE
+          1.3. MySQL
+          1.4. IBM DB2
+          estas bases de datos tienen como objetivo guardar la información de forma estructurada, los datos almacenados en bases de datos y data Warehouses
+          se pueden utilizar  como fuente para el análisis 
+     2. Flat File or XML Datasets (archivos .txt y .xlsl)
+          2.1. Flat File: Archivos .txt, este tipo de archivos cada fila tiene un valor o un dato separado por un caracter como por ejemplo la coma 
+               el cual es muy conocido como csv(Comma-Separated-Value), otros son .tsv(Tab-Separated-Value) que el delimitador es la tecla Tabulador,
+               existen multiples delimitadores como el punto, algún caracter, número entre otros.
+               una diferencia muy marcada entre este formato y las bases de datos relacionales es el hecho de que los datos almacenados en archivos planos
+               y archivos XML están guardados en un misma tabla a diferencia de las bases de datos relacionales.
+          2.2. Spreadsheet files: es un tipo especial de Flat file, debido a su estructura tabular donde puedes organizar los datos en fila y columnas, estos formatos 
+               contienen multiples hojas de trabajo, que pueden asignarse a diferentes tablas, otra caracteristica relevante de este formato es que en ellas 
+               se guardan tanto datos como formulas.
+               El mas usado es XLSL de microsoft
+          2.3. XML(Xtensible-markup-lenguage): contienen valores de datos que se identifican o marcan mediante etiquetas, en constraste de los flat files que son 
+               asignados a una tabla, los archivos XML permiten estructuras de datos más complejas donde es posible la jerarquización del mismo, algunos de los usamos
+               comunes son: los datos de las encuestas en linea, extractos bancarios y otros conjuntos de datos no estructurados
+     3. APIs and Web Services: (Interfaces de Programas de aplicación), muchos proveedores de datos ofrecen APIs y servicios web, estos servicios reciben las consultas de 
+          de los usuarios y la devuelven en diferentes formatos como: JSON, XML, HTML entre otros.
+          APIs populares para obtener datos son:
+          3.1. twiter and facebook
+          3.2. del mercado de valores
+          3.3. de busqueda y validación de datos
+     4. Web Scraping (extracción de datos web): Se utiliza para extraer datos relevantes de fuentes no estructuradas,
+          tambien conocido como screen scraping y web harvestin, este permite descargar datos especificos de páginas web
+          en base a parámetros definidos, los extractores web pueden entre otras cosas, extraer texto, información de contacto
+          , imagenes, videos.
+          algunos usos comunes son:
+          4.1. Recolectar detalles de productos de minoristas, fabricantes y sitios web de comercio electronico para proporcionar 
+               comparaciones de precios.
+          4.2. Generar oportunidades de venta a travéz de fuentes de datos publicas
+          4.3. Extraer datos de publicaciones y autores en diversos foros y comunidades 
+          4.4. Recolectar conjuntos de datos de entrenamiento y prueba para modelos de machine learning
+     las herramientas mas populares para el Web Scraping son:
+     -BeautifulSoup
+     -Scrapy
+     -Pandas
+     -Selenium
+     5. Data Streams and feeds: los flujos de datos son ampliamente utilizados para agregar flujos constantes de datos que fluyen 
+          de fuentes como instrumentos, diapositivas y aplicaciones loT, gps de automoviles, estos datos suelen tener una marca de tiempo
+          y tambien están etiquetados geograficamente con su localización, una de las maneras en las que se pueden aprovechar los Data Streams 
+          es:
+          -indicadores bursátiles y de mercado para el comercio financiero.
+          -flujos de comercio minorista para predecir la demanda y la gestion de la cadena de suministro
+          -flujos de video y vigilancia para la detección de amenazas
+          -Canales de redes sociales para el análisis de sentimientos
+          -flujos de datos de sensores para la supervición de maquinaria industrial o agrícola,
+          -flujos de clics en la web para supervisar el rendimiento de la web y mejorar el diseño
+          -Eventos de vuelos en tiempo real para hacer nuevas reservaciones y reprogramaciónes
+          Las teconologias más importantes para el procesamiento de Data streams son:
+          1-Kafka
+          2-Apache Spark Streaming
+          3-Apache Storm
+     6. RSS: los canales RSS(or Really simple Syndication) feeds 
+          son otra fuente de datos popular, normalmente se utilizan para captar datos actualizados de foros en linea y sitios de noticias
+          los cuales se actualizan de forma continua, mediante un lector de feeds, que es una interfaz que convierte los archivos de text RSS
+          en un flujo de datos actualizados, las actualizaciones se transmiten a los dispositivos del usuario
+          
+
 
 
 
