@@ -285,8 +285,49 @@ Dentro de las más comunes podemos encontrar:
 
 Parte 2: Comprensión de los Repositorios de Datos y plataformas de grandes volumenes de datos
 
+overview de los repositorios más usados tales como:
+     Databases: Son aquellos repositorios en los cuales se almancenan datos de forma estructurada para una futura introducción, consulta, modificación eliminación  y 
+               de la data almacenada allí. y un Sistema de Administración de Bases de Datos, o (DBMS), es un conjunto de programas que crea y mantiene las bases de datos
+               Permite almacenar, modificar y extraer información de la base de datos mediante una función llamada consulta.
+               aunque bases de datos y DBMS signifiquen cosas diferentes, se suelen utilizar insitintivamente, pero aunque existen muchas bases de datos 
+               en la elección de ella influyen muchos factores como : 
+               -Tipo de datos
+               -Estructura de los datos
+               -Mecanismos de consulta
+               -Requisitos de latencia
+               -velocidades de transacción 
+               -Uso previsto de datos
+               
+               Las databases pueden clasificarse en dos grandes grupos los cuales son 
+               1. Relational Databases: estas se basan principalmente en principios organizativos de los archivos planos, con:
+                         - datos organizados en forma tabular de fila y columnas
+                         - Una estructura bien definida.
+                         - optimizadas para operaciones de consulta de datos que implican muchas tablas y volúmnes de datos mucho mayores,(siendo esta una de la mayores diferencias entre los archivos planos y las DBMS)
+                         - SQL es el DBMS mas frecuente para el almacenamiento de bases de datos relacionales.
+               2. Non-Relational Databases: Tambien conocidas como NoSQL son caracterizadas por:
+                         -Surgen en respuesta al volumen, diversidad y velocidad con que se generan hoy en día, principalmente influenciadas por los avances en la computación en la nube.
+                         -Construidas para ofrecer velocidades, flexibilidad y escala, 
+                         -las bases de datos no relacionales permitieron almacenar datos sin esquemas o de forma librerias
+                         -NoSQL se utiliza ampliamente para procesar Big Data.
+               RDBMS=(Relational Database Management Systems)
+                    Las filas son los registros y las columnas los atributos
+                    ejemplos de RDBMS:
+                    -Open-Source con soporte interno 
+                    -Open-Source con soporte comercial
+                    -Commercial closed-Source
+               ventajas de las RDBMS
+                    + 
 
-          
+     Data Warehouse: un Data Warehouse funciona como un repositorio central que fusionala información procedente de fuentes dispares y la consolida mediante el proceso de Extracción, Transformación y carga (ETL) 
+               a un nivel muy alto, el proceso ETL ayuda a 
+               -Extraer datos de diferentes fuentes de datos,
+               -Transformar los datos a un estado limpio y utilizable
+               -Cargar los datos en el repositorio de datos de la empresa.
+               Relacionados con los Data Warehouses están los conceptos de Data Marts y Data Lakes, que historicamente han sido repositorios relacionales
+     
+     Big Data Stores: Es una estructura de almacenamiento distribuida de computación para almacenar, escalar y procesar grandes volumenes de datos
+
+
 
 
 
