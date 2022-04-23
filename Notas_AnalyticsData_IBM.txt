@@ -162,7 +162,31 @@ El trabajo de un analista de datos tiene una infraestructura definida por los si
                -Big Data Stores
           El ecosistema de datos incluye lenguajes que se clasifican como:
                -Lenguaje de consultas        (SQL)
+                    SQL(Structured Query Language)= es un lenguaje de consulta estructurado diseñado para acceder y manipular de principalmente
+                    , aunque no exclusivamente, bases de datos relacionales, usando SQL podemos escribir un conjunto de instrucciones para realizar operaciones como
+                    1-Insertar      -|
+                     -Actualizar    -| Registros en una base de datos
+                     -Eliminar      -|
+                    2-Crear Nuevas bases de datos
+                     -Tablas
+                     -vistas
+                    3-Escribir procedimientos almacenados
+                         lo que significa que se puede escribir un conjunto de instrucciones y llamarlas para usarlas posteriormente
+                    -Ventajas de usar SQL
+                         1. Es portable  y se puede usar independientemente de la Plataforma
+                         2. Pueden usarse para consultar datos en una amplia variedad de bases de datos y repositorios
+                         3. Tiene una sintaxis simple similar a la del idioma ingles
+                         4. Su sintaxis permite que los desarroladores escriban programas con menos líneas que con algunos otros lenguajes de programación
+                              usando claves básicas como select, insert, into y update.
+                         5. Puede extraer grandes cantidades de datos de forma rápida y eficiente 
                -Lenguajes de programación    (Python)
+                    Python: Lenguaje Multi paradigma que soporta multiples lenguajes, es la ostia de los programas de alto nivel ya que tiene una curva de aprendizaje muy alta 
+                         como punto importante a resaltar es el uso de las miles de librerias que maneja, que por ejemplo sirven para:
+                              1.Pandas: para Data Wranling o la limpieza y preparación de datos.
+                              2.Numpy and Scipy:: para el análisis estadistico .
+                              3.BeautifulSoup and Scrapy: para el web Scraping.
+                              4.Matplotlib and Seaborn: para la visualización de datos.
+                              5.Opency: para el procesamiento de imagenes.
                -Lenguajes de shell y programación de scripts     (comandos de la shell)
      En resumen
      -> los datos estructurados son los qu están bien organizados en formatos que pueden almacenarse en bases de datos  y se presentan a métodos y herramientas de análisis de datos estandar
@@ -258,6 +282,10 @@ Dentro de las más comunes podemos encontrar:
           son otra fuente de datos popular, normalmente se utilizan para captar datos actualizados de foros en linea y sitios de noticias
           los cuales se actualizan de forma continua, mediante un lector de feeds, que es una interfaz que convierte los archivos de text RSS
           en un flujo de datos actualizados, las actualizaciones se transmiten a los dispositivos del usuario
+
+Parte 2: Comprensión de los Repositorios de Datos y plataformas de grandes volumenes de datos
+
+
           
 
 
