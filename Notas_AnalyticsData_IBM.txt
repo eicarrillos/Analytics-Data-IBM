@@ -129,6 +129,9 @@ Habilidades de un Analista de datos
 
 MODULO 2
 
+Parte 1. EL ECOSISTEMA DE DATOS Y LENGUAJES PARA PROFESIONALES DE DATOS.
+---------------------------------->
+
 El trabajo de un analista de datos tiene una infraestructura definida por los siguientes items:
      1. Recopilación de datos:
           la base de datos se puede clasificar en las siguientes categorias
@@ -283,7 +286,8 @@ Dentro de las más comunes podemos encontrar:
           los cuales se actualizan de forma continua, mediante un lector de feeds, que es una interfaz que convierte los archivos de text RSS
           en un flujo de datos actualizados, las actualizaciones se transmiten a los dispositivos del usuario
 
-Parte 2: Comprensión de los Repositorios de Datos y plataformas de grandes volumenes de datos
+Parte 2: cOMPRENSIÓN DE LOS REPOSITORIOS DE DATOS Y PLATAFORMAS DE GRANDES VOLÚMENES DE DATOS
+------------------------------------>
 
 overview de los repositorios más usados tales como:
      Databases: Son aquellos repositorios en los cuales se almancenan datos de forma estructurada para una futura introducción, consulta, modificación eliminación  y 
@@ -304,28 +308,232 @@ overview de los repositorios más usados tales como:
                          - Una estructura bien definida.
                          - optimizadas para operaciones de consulta de datos que implican muchas tablas y volúmnes de datos mucho mayores,(siendo esta una de la mayores diferencias entre los archivos planos y las DBMS)
                          - SQL es el DBMS mas frecuente para el almacenamiento de bases de datos relacionales.
+                    RDBMS=(Relational Database Management Systems)
+                         Las filas son los registros y las columnas los atributos
+                         ejemplos de RDBMS:
+                         -Open-Source con soporte interno 
+                         -Open-Source con soporte comercial
+                         -Commercial closed-Source
+                    ventajas de las RDBMS
+                         + Crear información significativa al unir tablas.
+                         + Flexibilidad para hacer cambios mientras la databases estan en uso
+                         + Reducción de las redundancias: para permitir relaciones bien definidas entre tablas
+                         + Facilidad para las copias de seguridad, ofrecen opciones de exportación e impotación sencillas.
+                         + Cumplimiento ACID significa Atomicidad, Consistencia, Aislamiento y Durabilidad, el cumplimiento de ACID siginifica que los datos siguen siendo 
+                         precisos apesar de los fallos y las transacciones de la base de datos se procesan de forma fiable.
+                    Casos de uso de RDBMS
+                         * Procesamiento de Transacciones Online (OLTP): Las aplicaciones OLTP se centran en tareas orientadas a las transacciones que se ejecutan a gran ritmo 
+                              y el por que las databases se ajustan tan bien a las OLTP es por:
+                              -Pueden dar cabida a un gran número de usuarios.
+                              -Admiten la posibilidad de insertar, actualizar o eliminar pequeñas cantidades de datos
+                              -Admiten consultas y actualizaciones frecuentes, asi como respuestas rápidas.
+                         * Data Warehouses: en un entorno de base de datos relacionales pueden optimizarse para el procesamiento analítico(OLAP) 
+                         * IoT Solutions: Las soluciones del internet de las cosas, require velocidad así como capacidad de recopilar y procesar datos de los dispositivos edge,
+                              que nesecitan solución de base de datos ligera.
+                    Limitaciones de las RDBMS
+                         + No funcionan bien con datos semiestructurados y no estructurados
+                         + Para la migración entre dos RDBMS, los esquemas y el tipo de datos tienen que ser idénticos entre las tablas de origen y el destinatario
+                         + las bases de datos relacionales tiene un límite en la longitud de los campos de datos, lo que significa que si se intenta introducir en un campo más de información
+                              de la que puede contener, la información no se almacenará.
                2. Non-Relational Databases: Tambien conocidas como NoSQL son caracterizadas por:
                          -Surgen en respuesta al volumen, diversidad y velocidad con que se generan hoy en día, principalmente influenciadas por los avances en la computación en la nube.
                          -Construidas para ofrecer velocidades, flexibilidad y escala, 
                          -las bases de datos no relacionales permitieron almacenar datos sin esquemas o de forma librerias
                          -NoSQL se utiliza ampliamente para procesar Big Data.
-               RDBMS=(Relational Database Management Systems)
-                    Las filas son los registros y las columnas los atributos
-                    ejemplos de RDBMS:
-                    -Open-Source con soporte interno 
-                    -Open-Source con soporte comercial
-                    -Commercial closed-Source
-               ventajas de las RDBMS
-                    + 
+                         
+                         NoSQL(no only SQL): es una base de datos no relacinal creada con las siguientes caracteristicas:
+                                        + para construir modelos de datos específicos 
+                                        + para tener esquemas flexibles que permtien a los programadores crear y 
+                                          manejar aplicaciones modernas.
+                                        + para no utilizar un diseño tradicional de base de datos de columna y fila 
+                                        + Para no utilizar el lenguaje de consulta estructurado (o SQL) para consultar los datos, aunque algunos pueden admitir interfaces de SQL.
+                              el NoSQL permite almacenar datos sin esquema o de forma libre, según el modelo que se utiliza para almacenar los datos, hay cuatro tipos comunes de bases de 
+                              datos NoSQL:
+                                   -Almacén de clave-valor (key-value store).
+                                        Los datos de una base de datos key-value store se almacenan como una colección de pares de clave-valor
+                                        + La clave representa un atributo de los datos y es un identificador único
+                                        + Tanto las claves como los valores pueden ser cualquier cosa, desde simples enteros o cadenas hasta complejos documentos JSON.
+                                        + Son excelentes para guardar los datos de la sesión y las preferencias de los usuarios, hacer recomendaciones en tiempo real y publicidad
+                                                  dirigida, y el almacenamiento en memoria de datos
+                                             sin embargo si se quieren consultar los datos sobre un valor de datos específico, se nesecitan:
+                                             - Consultar los datos sobre un valor de datos especifico.
+                                             - Relaciones entre los valores de datos.
+                                             - Multiples claves únicas.
+                                             para estos casos las key-value store pueden no ser adecuadas
+                                        algunos de los ejemplos más conocidos para esta categoria son:
+                                             -redis 
+                                             -Memcached
+                                             -DynamoDB
+                                   -Basada en documentos (Document Based).
+                                        -Estas almacenan cada registro y sus datos asociados en un solo documento
+                                        -Permiten una indización flexible, potentes consultas ad hoc y análisis de las colecciones de documentos.
+                                        -Son más adecuadas para las plataformas de comercio electrónico, almacenamiento de registros médicos, plataformas de CRM y plataformas de análisis
+                                             sin embargo si lo que se desea consultar es:
+                                             - Consultas de busqueda complejas
+                                             - Transacciones de múltiples operaciones.
+                                             para estos casos puede que los repositorios Documents based no sea la mejor opción.
+                                        algunos de los ejemplos más conocidos para esta categoria son:
+                                             -MongoDB
+                                             -DocumentsDB
+                                             -CouchDB
+                                             -Cloudant
+                                   -Basada en columnas (column based).
+                                        - Almacenan los datos en celdas agrupadas como columnas de datos en lugar de filas
+                                        - La agrupación lógica de las columnas, es decir, las xolunas a las que se suelen acceder juntas, se denominan familia de columnas.
+                                        - Todas las celdas correspondientes a una columna son guardadas como una entrada continua del disco, haciendo que el acceso sea más fácil y rápido.
+                                        - Pueden ser excelentes para los sistemas que se requieren intensas solicitudes de escritura, almacenamiento de datos de series temporales, datos meteorológicos
+                                             y datos IoT
+                                             Sin embargo si tienes que:
+                                             -usar consultas complejas
+                                             -cambiar tus patrones de consulta con frecuencia
+                                             para estos casos puede que los repositorios colunm based no sean los más adecuados.
+                                        Algunos ejemplos de tecnologias que usan este tipo de repositorios es:
+                                             -Cassandra
+                                             -Apache HBASE
+
+                                   -Basada en gráficos (Graph based).
+                                        + Las bases de datos basadas en gráficos utilizan un modelo gráfico para representar y almacenar datos
+                                        + Son particularmente útiles para visualizar, analizar y encontrar conexiones entre diferentes fragmentos de datos
+                                        + Un ejemplo es un diagrama circular el cual cada nodo contiene datos y cada flecha indicando la relación entre ellos
+                                        + Son una excelente opción para almacenar datos con multiples relaciones, ejemplo:
+                                             - Social networks  
+                                             - Recomendaciones de productos en tiempo real.
+                                             - Networks diagrams
+                                             - Detección de fraudes
+                                             - Access management
+                                             sin embargo si lo que quires es:
+                                                  * Procesar grandes volumenes de transacciones
+                                             puede que este repositorio no sea adecuado.
+                                        Algunas teconologias que manejan estos repositorios son:
+                                             - Neo4j
+                                             - Cosmos DB
+                         
+                         Ventajas de los repositorios NoSQL:
+                              - La principal ventaja es su capacidad para manejar grandes volumenes de datos estructurados, semiestructurados y no estructuradosa
+                              - La capacidad de ejecutarse como sistemas distribuidos escalados en múltiples centros de datos. lo que permite aprovechar la infraestructura de computación en la nube
+               
+               
 
      Data Warehouse: un Data Warehouse funciona como un repositorio central que fusionala información procedente de fuentes dispares y la consolida mediante el proceso de Extracción, Transformación y carga (ETL) 
                a un nivel muy alto, el proceso ETL ayuda a 
-               -Extraer datos de diferentes fuentes de datos,
-               -Transformar los datos a un estado limpio y utilizable
-               -Cargar los datos en el repositorio de datos de la empresa.
+                    -Extraer datos de diferentes fuentes de datos,
+                    -Transformar los datos a un estado limpio y utilizable
+                    -Cargar los datos en el repositorio de datos de la empresa.
                Relacionados con los Data Warehouses están los conceptos de Data Marts y Data Lakes, que historicamente han sido repositorios relacionales
-     
-     Big Data Stores: Es una estructura de almacenamiento distribuida de computación para almacenar, escalar y procesar grandes volumenes de datos
+               Optaremos por usar un Data Warehouse cuando se tienen cantidades masivas de datos operacionales que nesecitan estar disponibles para la presentación de informes
+               Las caracteristicas de un Data warehouse son:
+                    + Es un instrumento multipropósito de análisis operacional y de rendimiento.
+                    + Sirven como la única fuente de verdad, almacenamiento de datos actuales e históricos.
+          Data Marts: Es una subsección  del Data Warehouse, creado especificamente para una función de negocios concreta, propósito o comunidad de usuarios, la idea es proporcionar 
+               a lo interesados los datos más pertinentes para ellos, cuando lo necesiten. por ejemplo, los equipos de ventas o financieros que acceden a los datos para elaborar sus informes y proyecciones trimestrales,
+               los Data Marts ofrecen:
+                    + Capacidades análiticas para un área restringida del Data Warehouse
+                    + Seguridad aislada y rendimiento aislado
+                    + El papel más importante de un Data Mart es la generación de informes y análisis especificos de la empresa.
+          Data Lakes: Un Data Lake es un repositorio de almacenamiento que puede albergar grandes cantidades de datos estructurados, semiestructurados y no estructurado en su formato nativo,
+                    clasificados y etiquetados con metadatos, Así, mientras que un Data Warehouse almacena datos procesados para una necesidad específica, un Data Lake es un conjunto de datos 
+                    en bruto donde:
+                         + cada elemento de datos recibe un identificador único y es etiquetado con metaetiquetas para su uso posterior.
+                         + La Data de un Data lake es seleccionada y organizada basada en el uso del caso que se necesite.
+                         + A diferencia de los Data Warehouses, un Data Lake retendría todos los datos de la fuente, sin ninguna exclusión y los datos podrían incluir todo tipo de fuentes y tipos de datos.
+                         + A vesces tambien se utilizan como área para la preparación de un data Warehouse.
+                         + El papel más importante de un Data Lake es el análisis predictivo y avanzado.
+     ETL=(Extract, Transform, and load) Es la forma en que los datos en bruto se convierten en datos listos para el análisis.
+          - Es un procesos automatizado ene le que se recogen datos en bruto de fuentes identificadas,
+          - Se extrae información que se ajusta a las necesidades de información y análisis.
+          - Se limpia, estandariza y transforma esos datos en un formato que se puede utilixar en el contexto de la organización.
+          - Carga de la data en un repositorio de datos.
+               Extract: La extracción es el paso en el que se recopilan los datos desde las ubicaciones de las funtes para su transformación.
+                         puede ser atravez de:
+                         - Procesamiento por lotes, lo que significa que los datos de origen se mueven en grandes fragmentos desde la fuente hasta el sistema de destino a intervalos programados.
+                         Herramientas para el procesamiento:
+                              + Stitch
+                              + Blendo
+                         - Procesamiento de flujo (Stream processing): que significa que los datos de la fuente se extraen en tiempo real de la misma y se transforman mientras están en transito y antes.
+                              de que se carguen en el repositorio de datos.
+                          Herramientas para el procesamiento:
+                              + Apache Samza
+                              + Apache Storm
+                              + Apache Kafka
+               Transform: La transformación implica la ejecución de reglas y funciones que convierten los datos en bruto en los datos que pueden usarse para el análisis
+                         Por ejemplo:
+                              - Haciendo que los formatos de fecha y las unidades de medida sean consistentes en todos los datos de origen,
+                              - Eliminando los datos duplicados
+                              - Filtrando los datos que no se necesitan
+                              - Enriqueciendo los datos: por ejemplo dividiendo el nombre completo en nombre, segundo nombre y apellidos
+                              - Estableciendo relaciones clave entre las tablas
+                              - Aplicando reglas de negocio y validación de datos.
+               Load: La carga es el paso en el que los datos procesados se transportan aun sistema de destino o a un repositorio de datos
+                         Podria ser:
+                              + Carga inicial (Initial loading), es decir, rellenar todos los datos del repositorio.
+                              + Carga incremental (Incremental loading), es decir, aplicar periódicamente actualizaciones y modificaciones continuas según sea necesario.
+                              + Refresco completo (Full refresh), borrar el contenido de una o más tablas y volver a cargarlas con datos
+                         La verificación de la carga checks for:
+                              - La comprobación de datos en busca de datos faltantes o nulos.
+                              - El rendimiento del servidos
+                              - Supervición de fallos
+
+     Big Data Stores: Es una estructura de almacenamiento distribuida de computación para almacenar, escalar y procesar grandes volumenes de datos.
+                    se refiere a los volumenes dinámicos, Grandes y dispares de datos creados por personas, herramientas y maquinas. Require una tecnología nueva, innovadora y escalable para 
+                    recopilar, alojar y procesar análiticamente la enorme cantidad de datos recopilados con el fin de obtener percepciones del negocio en tiempo real que se relacionen con consumidores
+                    riesgo, beneficios, rendimientos, gestion de la productividad y un mayor valor para el accionista.
+                    Las V del  big data:
+                         -Velocidad: es la rapidez con la que se acumulan los datos. los datos se generan extremadamente rápido en un proceso que nunca se detiene.
+                         -Volumen: es la escala de los datos o el aumento de cantidad de datos almacenados
+                         -Variedad: es la diversidad de datos.
+                         -Veracidad: es la calidad y el origen de los datos y su conformidad con los hechos y la exactitud, los atributos incluyen:
+                                        - Consistencia
+                                        - Completitud
+                                        - Integridad
+                                        - Ambigüedad
+                         -Valor: es nuestra capacidad y necesidad de convertir los datos en valor
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MODULO 3
+
+PARTE 1. RECOPILACIÓN Y TRANSFORMACIÓN DE DATOS
+----------------------------->
+Identificando datos para el Análisis.
+
+Proceso para identificar los datos:
+     Paso 1. Determinar la información que quieres recopilar
+          en este paso se toman desiciones como:
+          1.a-) La información específica que se necesitan
+          1.b-) Los posibles origenes de esta Data
+     Paso 2. Definir un plan para la recopilación de datos.
+          2.a-) Algunos de los datos que se necesitan pueden ser necesarios de manera continua y otros a lo largo de un período de tiempo definido.
+          2.b-) En este paso también puedes definir cuántos datos serían suficientes para que pudieras llegar a un análisis creible.
+          2.c-) Tambien se puede utilizar este paso para definir las dependencias, riesgos, plan de mitigación y varios otros
+     Paso 3. Determinar los métodos de recopilación de datos, en este paso determinaras los métodos de recopilación de datos que necesitas.
+          3.a-) Definiras como recabar los datos de las fuentes de datos que has identificado.
+               -Los metodos dependeran de:
+                    + La fuente de DATOS
+                    + El tipo de datos
+                    + El plazo en que se necesitan los datos
+                    + El volumén de los mismos.
+La identificación de la data, la fuente de esos datos y las practicas que tu empleas para obtener esos datos tienen implicaciones para:
+     - Calidad: Trabajar con datos de fuentes dispares son tener en cuenta lo bien que cuadran respecto a la metrica de calidad puede conducir al fracaso
+               para ser fiables, los datos deben estar:
+                    - libres de errores 
+                    - precisos
+                    - completos
+                    - relevantes
+                    - Accesibles
+               Tambien hay que estar atento a las cuestiones relativas de la Governance:
+                    - Seguridad
+                    - Regulación 
+                    - Cumplimiento  
+     - Seguridad: Los datos que se recopilen deben cumplir los requisitos de:
+               - Confidencialidad
+               - Licencias de uso
+               - Cumplimiento de las normas establecidas.
+          es necesario planificar:
+               - Verificaciones
+               - Validaciones
+               - Seguimiento auditable
+               
+     - Privacidad 
+             
 
 
 
