@@ -532,13 +532,95 @@ La identificación de la data, la fuente de esos datos y las practicas que tu em
                - Validaciones
                - Seguimiento auditable
                
-     - Privacidad 
-             
+     - Privacidad:
 
+Fuentes de datos:
 
+las fuentes de datos pueden ser internas o externas a la organización pueden ser:
+     -primarias: esta se refiere a la información obtenida directamente por uno mismo apartir de la fuente,
+               -pueden ser de fuentes internas como datos de la organización, CRM, HR, aplicaciones de flujo de trabajo
+               -Podrian incluir datos que obtienes directamente por medio de encuestas, entrevistas, charlas, observaciones y grupos de debate.
+     -secundarias: los datos secundarios se refieren a la información obtenida de fuentes existentes.
+               -Bases de datos externas
+               -Artículos de investigación, publicaciones, material de formación y búsquedas en investigación, publicaciones, material de formación y busquedas de internet o registros financieros disponibles como datos publicos.
+               -Datos reunidos externamente mediante encuestas, entrevistas, coloquios, observaciones y grupos de debate.   
+     -terceros: Los datos de terceros son los que se adquiren de agregadores que reunen datos de diversas fuentes y los combinan en conjuntos de datos completos con el único fin de venderlos.
 
+     Diferentes fuentes de donde se podrian estar recolectando datos
+          -Aplicaciones internas para gestionar sus procesos, flujos de trabajo y clientes.
+          -Las bases de datos externas están disponibles por suscripción o para su compra. Un número significativo de empresas han pasado o se están pasando a la nube, que se está convirtiendo cada vez más en una fuente de acceso a la información
+           en tiempo real y a percepciones bajo demanda.
+          -La web es una fuente de datos de acceso público que está a disposición de las empresas y de los individuos para uso gratuito o comercial.
+               pueden ser:
+               + Libros de texto
+               + Registros gubernamentales
+               + Documentos y artículos
+          - Redes sociales y plataformas interactivas como Facebook, Twitter, Google, YouTube e Instagram. se utilizan cada vez más para obtener datos y opiniones de los usuarios. Las empresas están utilizando estas fuentes de datos para obtener conocimientos cuantitativos y cualitativos. Clientes actuales
+            y potenciales.
+          - Datos de sensores generados por dispositivos vestibles, edificios inteligentes, ciudades inteligentes, telefonos inteligentes, dispositivos médicos, incluso los electrodomésticos son una fuente de datos muy utilizada.
+          - Intercambio de datos: es una fuente de datos de terceros que implica el intercambio voluntario de datos entre los proveedores de datos y los consumidores:
+               + Datos procedentes de aplicaciones para negocios
+               + Dispositivos de sensores
+               + Actividad de redes sociales.
+               + datos de localización 
+               + Datos de comportamiento de los consumidores.
+          -Las encuestas: ellas recogen información mediante cuestionarios distribuidos a un grupo selecto de personas. por ejemplo, midiendo el interés de los clientes existentes en gastar en una versión actualizada de un producto. Las encuestas pueden realizarse en la web o en papel.
+          -Los datos del censo tambien son una fuente comúnmente utilizada para recopilar datos de los hogares, como por ejemplo, datos de riqueza e ingresos, o datos de población.
+          -Las entrevistas son una fuente para reunir datos cualitativos, como las opiniones y experiencias de los participantes.
+          -Estudios de observación: los estudios incluyen la vigilania de los participantes en un entorno específico o mientras realizan una tarea concreta.
 
+Cómo recopilar e Importar Datos:
 
+RECOPILACIÓN DE DATOS
 
+Para recopilar e importar datos como bases de datos, la web, datos de sensores, intercambios de datos, y otras diversas fuentes
+Tambien aprenderemos sobre la importación de datos a diferentes tipos de repositorios de datos.
 
+     SQL: Es un lenguaje de consulta usado para extraer información de bases de datos relacionales
+          SQL ofrece comandos sencillos para:
+          - especificar lo que se debe recuperar de la base de datos, 
+          - La tabla de la que se debe extraer.
+          - agrupar los registros con valores coincidentes.
+          - dictar la secuencia en la que se muestran los resultados de la consulta.
+          - limitar el número de resultados
+     NoSQL: algunas bases de datos no relacionales vienen con sus propias herramientas de consulta como CQL para:
+          -Cassandra
+          -GraphQL
+          -Neo4J 
+     APIs: Tambien se utilizan comúnmente para extraer datos de diversas fuentes 
+          -Se invocan desde las aplicaciones que requieren los datos y acceden a un punto final que contien los datos, los puntos finales pueden incluir bases de datos, servicios web y mercados de datos
+          - tambien usan la validación de datos.
+          Por ejemplo:
+               + Un analista puede utilizar una API para validar direcciones postales y códigos postales.
+     web scraping: Tambien conocido como screen scraping o web harvesting, se utiliza para descargar datos especificos de una web en función de parámetros definidos.
 
+          - el web scraping se utiliza para extraer datos como texto, información de contacto, imagenes, videos podcast  y articulos de productos a partir de un sitio web.
+          - Las fuentes RSS son otro recurso que se suele utilizar para recabar datos actualizados de foros online y sitios de noticias en los qu se actualizan de forma continua.
+     Data streams son una fuente popular para agregar flujos constantes de datos que provienen de fuentes como:
+          -instrumentos.
+          -dispositivos y aplicaciones IoT.
+          -Datos de Gps de automoviles.
+     
+     Data exchanges: las plataformas de Intercambio de datos permiten el intercambio de datos entre los proveedores de datos y los consumidores de datos.
+          - Los intercambios de datos tienen un conjunto de normas, protocolos y formatos de intercambio bien definidos y pertinentes para el intercambio de datos.
+          - Facilitan el intercambio de datos.
+          -garantizan el mantenimiento de la seguridad y la gobernanza
+          - Proporcionan flujos de trabajo para la concesión de licencias de datos, anonimización y protección de la información personal, marcos jurídicos y un entorno de análisis protegido.
+          entre los ejemplos de plataforma de intercambio de datos populares se encuentran:
+               +AWS Data Exchange
+               +Crunchbase
+               +Lotame
+               +Snowflake
+     other sources: para las tendencias de marketing y el gasto en publicidad, por ejemplo, se sabe que empresas de investigación como Forrester y Business Insider proporcionan datos fiables.
+          las empresas de investigación y asesoramiento como Gartner y Forrester son fuentes de amplia confianza para la orientación estratégica y operacional.
+
+IMPORTAR DATOS:
+
+Los repositorios de datos específicos están optimizados para determinados tipos de datos
+     -Las bases de datos relacionales almacenan datos estructurados con un esquema bien definido.
+               si utilizas una  base de datos relacional como sistema destino, solo podrás almacenar datos estructurados, como datos de sistemas OLTP, Hojas de cálculo, formularios online,
+               sensores, registros de red y web.
+               -los datos estructurados tambien se pueden almacenar en NoSQL
+               -las bases de datos NoSQL y los Data Lakes constituyen una buen opción para almacenar y manipular grandes volúmenes de datos no estructurados, los data lakes pueden albergar todos los tipos de datos y esquemas.
+               -Las herramientas ETL y los data lakes proporcionan funciones automatizadas que facilitan el proceso de importación de datos.
+               -Herramientas como Talend e informatíca y lenguajes de programación como Python y R y sus bibliotecas se utilizan ampliamente para importar datos 
