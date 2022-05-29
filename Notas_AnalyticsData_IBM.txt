@@ -623,4 +623,117 @@ Los repositorios de datos específicos están optimizados para determinados tipo
                -los datos estructurados tambien se pueden almacenar en NoSQL
                -las bases de datos NoSQL y los Data Lakes constituyen una buen opción para almacenar y manipular grandes volúmenes de datos no estructurados, los data lakes pueden albergar todos los tipos de datos y esquemas.
                -Las herramientas ETL y los data lakes proporcionan funciones automatizadas que facilitan el proceso de importación de datos.
-               -Herramientas como Talend e informatíca y lenguajes de programación como Python y R y sus bibliotecas se utilizan ampliamente para importar datos 
+               -Herramientas como Talend e informatíca y lenguajes de programación como Python y R y sus bibliotecas se utilizan ampliamente para importar datos.
+
+
+PARTE 2. TRANSFORMACIÓN DE DATOS EN BRUTO
+
+Que es el Data Wrangling
+
+Es un  procesos iterativo de exploración transformación y validación de los datos, y hacerlos disponibles para un análisis creible.
+el Data wrangling comprende una gama de tareas relacionadas con la preparación de los datos para su análisis.
+
+     Pasos del data wrangling:
+          -descubrimiento:
+               tambien conocida como la fase de exploración consiste en comprender mejor los datos con respecto a nuestro caso de uso
+               -el objetivo es averiguar especificamente como se pueden limpiar, estructurar, organizar y maperar mejor los datos que tenemos 
+
+          -transformación:
+               forma el grueso de nuesta data, involucra las tareas que se realizan para transformar los datos, tales como estructurar, normalizar, desnormalizar, limpiar y enriquecer los datos.
+               -estruración: esta tarea incluye acciones que cambian la forma y el esquema de lso datos. 
+               -Normalizacion y desnormalización: se centra en la limpieza de la base de datos de los datos no utilizados y en la reducción de la redundancia y la inconsistencia.
+               -Limpieza: los datos que son inexactos, faltantes o incompletos pueden sesgar los resultados del análisis
+               -Enriquecer los datos: cuando valoras los datos que tienes, para mirar puntos de datos adicionales que podrían hacer tu análisis más significativo
+
+          -validación:
+               Aquí es donde se comprueba la calidad de la estructuración, normalización, limpieza y enriquesimiento de la entrada de datos
+               -Las reglas de verificación se refieren a los pasos de programación repetitivos utilizados para verificar la consistencia, calidad y seguridad de los datos que tienes
+
+          -Publicación:
+               La publicación implica la entrega del resultado de los datos preparados para las necesidades del proyecto
+
+     Herramientas para el Data wrangling
+     algunas de la más populares herramientas usadas para el data Wrangling estan:
+          -Excel Power Query / Spreadsheets
+          -OpenRefine
+          -Google DataPrep
+          -Watson Studio Refinery
+          -Trifacta Wrangler
+          -Python
+          -R 
+     
+     Limpieza de datos:
+          según un informe de gartner sobre la calidad de los datos, la mala calidad de los datos debilita la posición
+          donde:
+          -Datos incompletos 
+          -Datos inconsistentes
+          -Datos incorrectos 
+          pueden llevar a conclusiones falsas y por lo tanto a decisiones equivocadas
+          aunque los términos Data Cleaning ("Limpieza de datos") y Data Wrangling se utilizan a veces indistintamente es importante tener en cuenta que la limpieza de datos es sólo un subconjunto de todo el
+          proceso de transformación, un flujo de trabajo típico de limpieza de datos incluye:
+               -inspección:
+                    + El primer paso en el flujo de trabajo de limpieza de datos es detectar los diferentes tipos de problemas y errores qeu puede tener el conjunto de datos.
+                    + La creación de perfiles de datos ayuda a inspeccionar los datos de origen para comprender la estructura, contenido
+
+               -Limpieza:
+                    + 
+               -verificación 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Modúlo 4  
+
+PARTE 1. ANALISIS Y MINERIA DE DATOS.
+--------------------------------->
+
+Los metodos estadisticos son útiles para asegurar que:
+     1. los datos se interpreten correctamente.
+     2. las relaciones aparentes sean significativas y no sucedan por casualidad.
+
+Tipos de estadisticas:
+     existen dos tipos de estadisticas que podemos realizar. 
+     -Estadisticas descriptivas: para resumir la información sobre la muestra:
+          + Te permite presentar los datos de una manera significativa
+          + Permitiendo una interpretación más simple de los datos.
+          + Los datos se describen utilizando diagramas, tablas y gráficos de resumen sin ningún intento de sacar conclusiones sobre la población de la que se toma la muestra.
+
+          Presentación de los datos:
+          TENDENCIA CENTRAL:
+               +la media:
+               +la mediana:
+               +la moda:
+          DISPERCIÓN: Es la medida de variabilidad en un conjunto de datos. las medidas comunes de dispersión estadísticas son:
+               + la varianza: la varianza define lo lejos que están los puntos de datos del centro, es decir, la distribución de los valores.
+                              lower variability: los valores del conjunto de datos son consistentes.
+                              higher variability: Valores más dispares con valores extremos más alejados.
+
+               + La desviación Estándar: Indica lo estrechamente que los datos están agrupados en torno a la media 
+               + Rango: te da la distacia entre valores más pequeños y más grandes
+          ASIMETRIA: es la medida de si la distribución de los valores es simétrica alrededor de un valor central o está sesgada a la izquierda o a la derecha, los datos sesgaods pueden afectar a los tipos de análisis
+           
+
+     -Estadisticas inferenciales: para hacer inferencias o generalizaciones sobre la población en general.
+
+Que es el Data mining?
+
+-Es el corazón del proceso de análisis de datos.
+-Es el campo interdisciplinario que implica el uso de tecnologías de reconocimiento de patrones, análisis estadísticos y tecnicas matemáticas.
+-Su objetivo es identificar correlaciones en los datos, encontrar patrones y variaciones, para comprender las tendencias:
+
+     Tendencias: las tendencias es la evolución general de un conjunto de datos para cambiar con el paso del tiempo.
+     Patrones: el reconocimiento de patrones es el descubrimiento de la regularidad o lo común de los datos
+existen varias técnicas que se pueden utilizar para detectar patrones y crear modelos precisos para el:
+     + descubrimiento
+     + diagnostico
+     + predictivo
+     + prescriptivo
+
+Algunas de las tecnicas más utilizadas
+     + Clasificación: es una tecnica que clasifica atributos en categorías de objetos, por ejemplo, clasificando a los clientes en gastadores bajos medios o altos en función de lo que ganan.
+     + clustering:  la agrupación es similar a la clasificación, pero implica agrupar los datos en clústeres para que puedan tratarse como grupos.
+     + La mineria de reglas de asociación  es una tecnica que ayuda a establecer nuestra relación entre dos eventos de datos. 
+     + patrones secuenciales: técnica que rastrea una serie de eventos que tienen lugar en una secuencia.
+     + agrupación por afinidad: es una tecnica utilizada para descubrir la concurrencia en las relaciones. 
+     + Decision trees: ayudan a construir modelos de clasificación en  forma de una estructura de árbol con multiples ramas, en la que cada rama representa una ocurrencia probable.
+     + Regression: es una técnica que ayuda a identificar la naturaleza de la relación entre dos variables, que puede ser causal o correlativa.
+
+
+Herramientas para el Data mining
