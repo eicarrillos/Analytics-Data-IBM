@@ -26,7 +26,7 @@ Data engienering convert raw data into usable data
 
 Data Analitics use this data to generate insights
 
-Data Scienttists use Data Analytics and Data Engineering to predict the future using
+Data Scientists use Data Analytics and Data Engineering to predict the future using
 data from the past
 
 Business Analysts and Business Intelligence Analysts use these insights and predictions 
@@ -737,3 +737,36 @@ Algunas de las tecnicas más utilizadas
 
 
 Herramientas para el Data mining
+
+PARTE 2. COMUNICACIÓN LOS RESULTADOS DEL ANÁLISIS DE DATOS
+-------------------------------->
+
+Visualización de datos: Es el proceso del análisis que nos permite condensar la información en gráficos para entender el comportamiento de nuestra base de datos.
+
+     Preguntas para saber que tipo de gráfica usar en cada caso:
+          + Cual es la relación que estoy tratando de establecer?, 
+          + Quiero comparar la proporción relativa de las subpartes de un conjunto, por ejemplo:
+          + La contrubución de las diferentes líneas de productos en los ingresos totales de la empresa?
+          + Quiero comparar valores múltiples, como el número de productos vendidos y lo ingresos generados en los últimos años?
+          + Necesito que mi público vea la correlación entre dos variables.
+          + Quiero detectar anomalias en los datos, por ejemplo, encontrar  alores en los datos que podrian potencialmente desviar los resultados?
+     Tambien se debe considerar si la visualización debe ser estática o interactiva.
+          Visualización interactiva: está visualizacíon muestra las variables como cambian en el tiempo:
+               + por lo tanto has de pensar en la conclusión principal que tu público va a obtener.
+               + Anticipar sus necesidades de información
+               + Las preguntas que puedan tener.
+               Gráficas de barras: son excelentes para comparar conjuntos de datos relacionados o partes de un todo.
+               Gráficas de columnas: son adecuadas para comparar datos negativos y positivos
+               Gráficas de tarta: muestran el desgloce de una entidad en sus subpartes y la proporción de las subpartes en relación con cada una de ellas 
+               Gráficas de lineas: Muestran tendencias, son excelentes apra mostrar cómo cambia el valor de un dato en relación con una variable continua.
+     Herramientas para la visualización:
+          Librerias de Python:
+               -Matplotlib: para la creación de graficas 2d y 3d.
+               -bokeh: Provee gráficos interactivos.
+               -Dash: es un framework de Pyhon para crear visualizaciones interactivas basadas en la web.
+               -Shiny: es un paquete de R que te permite crear dashboards 
+          IBM Cognos Analytics.
+          Tableau: se puede utilizar para crear dashboards
+          Power Bi: sire para realizar informes y dashboards.
+          
+           
