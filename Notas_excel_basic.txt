@@ -2,4 +2,11 @@ CONCEPTOS BASICOS DE EXCEL PARA EL ANALSIS DE DATOS:
 
 MODULO 1. introducción al Análisis de datos mediante hojas de cálculo.
 
+comandos:
+
+    ir a la primera celda: ctrl + inicio
+    ir al ultimo dato: ctrl + fin
+    ir a la ultima fila: ctrl + flecha abajo
+    ir a la ultima columna : ctrl + flecha derecha
+    seleccionar todos los datos: ctrl + A
      
